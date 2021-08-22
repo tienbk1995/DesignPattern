@@ -1,8 +1,9 @@
-package src.DesignPattern;
+package src.DesignPatternStrategy;
 
 public class Duck {
 
     FlyBehavior flyAction;
+    QuackBehavior quackAction;
 
     public void swim() {
         System.out.println("Swim super class");
@@ -22,5 +23,9 @@ public class Duck {
 
     public FlyBehavior getFlyAction() {
         return flyAction;
+    }
+
+    public void performQuack() {
+        quackAction.quack();
     }
 }

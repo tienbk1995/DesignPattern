@@ -1,4 +1,4 @@
-package src.DesignPattern;
+package src.DesignPatternStrategy;
 
 public class RedHeadDuck extends Duck {
     private String name;

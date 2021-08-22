@@ -1,4 +1,4 @@
-package src.DesignPattern;
+package src.DesignPatternStrategy;
 
 public class FlyWithRocket implements FlyBehavior {
     private String name;

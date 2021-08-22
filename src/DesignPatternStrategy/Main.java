@@ -1,4 +1,4 @@
-package src.DesignPattern;
+package src.DesignPatternStrategy;
 
 public class Main {
     public static void main(String[] args) {
@@ -6,5 +6,7 @@ public class Main {
         Donald.performFly();
         Donald.setFlyAction(new FlyWithRocket("Donald"));
         Donald.performFly();
+        Duck Lucy = new RedHeadDuck("Lucy");
+        Lucy.performFly();
     }
 }
