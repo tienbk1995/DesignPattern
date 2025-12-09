@@ -34,5 +34,4 @@ The goal is to demonstrate practical knowledge of object-oriented design, decoup
 
 ---
 
-## 📁 Suggested Folder Structure
 
